@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="UTF-8">
+  <title>アニメーション</title>
+  <link rel="stylesheet" type="text/css" href="base.css">
+  <script src="https://code.jquery.com/jquery-3.7.1.min.js"></script>
+</head>
+<body>
+  <div id="button">
+    <p>button</p>
+  </div><!-- button -->
+  <script>
+  $('#button').hover(function(){
+    $(this).animate({
+      marginTop:'350px',
+      marginLeft:'400px',
+    });
+  });
+  </script>
+</body>
+</html>
